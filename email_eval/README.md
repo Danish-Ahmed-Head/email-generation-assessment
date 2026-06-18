@@ -101,7 +101,7 @@ No system role. No examples. Represents the minimum viable prompt.
 
 ---
 
-### Metric 2 — Tone Alignment Score (LLM-as-Judge)
+### Metric 2 - Tone Alignment Score (LLM-as-Judge)
 **Definition:** How accurately the generated email matches the requested tone, scored by a stronger judge model.
 
 **Logic:**
@@ -116,7 +116,7 @@ No system role. No examples. Represents the minimum viable prompt.
 
 ---
 
-### Metric 3 — Email Structure Score (Automated)
+### Metric 3 - Email Structure Score (Automated)
 **Definition:** Whether the email contains all three required structural components.
 
 **Components checked:**
@@ -171,15 +171,15 @@ All 5 tones are covered. Each scenario includes 5 required facts and a human-wri
 
 | Column | Description |
 |---|---|
-| scenario_id | 1–10 |
+| scenario_id | 1-10 |
 | model_variant | A or B |
 | tone | Requested tone |
-| metric_1_fact_recall | 0.0–1.0 |
+| metric_1_fact_recall | 0.0-1.0 |
 | metric_1_facts_found | Integer |
-| metric_2_tone_alignment | 0.0–1.0 |
+| metric_2_tone_alignment | 0.0-1.0 |
 | metric_2_tone_raw | 1–10 (LLM judge raw score) |
 | metric_2_tone_rationale | One-sentence judge explanation |
-| metric_3_structure | 0.0–1.0 |
+| metric_3_structure | 0.0-1.0 |
 | composite_score | Average of all 3 metrics |
 | generated_email | Full generated email text |
 | reference_email | Human-written reference email |
