@@ -42,7 +42,7 @@ You need to add credit (minimum $5) - there is no free tier on the API.
 python main.py
 ```
 
-**Expected runtime:** ~3–5 minutes (20 generation calls + 10 judge calls)  
+**Expected runtime:** ~3-5 minutes (20 generation calls + 10 judge calls)  
 **Expected cost:** under $0.10 total
 
 ### 5. View results
@@ -106,12 +106,12 @@ No system role. No examples. Represents the minimum viable prompt.
 
 **Logic:**
 1. Send the generated email + requested tone to `gpt-4.1` (judge model)
-2. Judge returns an integer score 1–10 against a structured rubric
-3. Score normalised to 0.0–1.0 (divide by 10)
+2. Judge returns an integer score 1-10 against a structured rubric
+3. Score normalised to 0.0-1.0 (divide by 10)
 4. JSON mode enforced to prevent parsing failures
 
 **Judge model:** `gpt-4.1` (stronger than the generation model `gpt-4.1-mini`, preventing self-serving bias)  
-**Range:** 0.0 - 1.0 (raw: 1–10)  
+**Range:** 0.0 - 1.0 (raw: 1-10)  
 **Why:** Tone is subjective and impossible to measure with regex. LLM-as-Judge achieves ~85% agreement with human raters - the current industry standard for scalable text evaluation.
 
 ---
@@ -125,7 +125,7 @@ No system role. No examples. Represents the minimum viable prompt.
 - Closing sign-off ("regards", "sincerely", "best", "cheers", etc. in last 5 lines)
 
 **Score:** `components_present / 3`  
-**Range:** 0.0 – 1.0  
+**Range:** 0.0 - 1.0  
 **Why:** Professional emails have a mandatory structure. This catches the most common generation failure mode (missing subject lines or abrupt endings) cheaply and reliably.
 
 ---
@@ -140,7 +140,7 @@ No system role. No examples. Represents the minimum viable prompt.
 | Role | Model | Why |
 |---|---|---|
 | Email generation | `gpt-4.1-mini` | Current recommended budget model (April 2025). Replaced gpt-4o-mini. Strong instruction following, ~$0.40/1M input tokens. |
-| LLM Judge | `gpt-4.1` | Stronger than the generation model — prevents self-serving bias. |
+| LLM Judge | `gpt-4.1` | Stronger than the generation model - prevents self-serving bias. |
 
 ---
 
@@ -177,7 +177,7 @@ All 5 tones are covered. Each scenario includes 5 required facts and a human-wri
 | metric_1_fact_recall | 0.0-1.0 |
 | metric_1_facts_found | Integer |
 | metric_2_tone_alignment | 0.0-1.0 |
-| metric_2_tone_raw | 1–10 (LLM judge raw score) |
+| metric_2_tone_raw | 1-10 (LLM judge raw score) |
 | metric_2_tone_rationale | One-sentence judge explanation |
 | metric_3_structure | 0.0-1.0 |
 | composite_score | Average of all 3 metrics |
