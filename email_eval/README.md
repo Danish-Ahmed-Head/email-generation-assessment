@@ -1,4 +1,4 @@
-# Email Generation Assistant — AI Engineer Candidate Assessment
+# Email Generation Assistant - AI Engineer Candidate Assessment
 
 A complete evaluation pipeline for an LLM-powered professional email generation assistant.  
 Built as part of the SG Services AI Engineer technical assessment.
@@ -8,9 +8,9 @@ Built as part of the SG Services AI Engineer technical assessment.
 ## What This Project Does
 
 This project builds and evaluates an AI assistant that generates professional emails from three inputs:
-- **Intent** — the purpose of the email (e.g. "Follow up after interview")
-- **Key Facts** — bullet points that must appear in the email
-- **Tone** — the desired style (formal, casual, urgent, empathetic, confident)
+- **Intent** - the purpose of the email (e.g. "Follow up after interview")
+- **Key Facts** - bullet points that must appear in the email
+- **Tone** - the desired style (formal, casual, urgent, empathetic, confident)
 
 It then compares **two prompting strategies** using **three custom evaluation metrics**, and produces a structured CSV report with all scores.
 
@@ -35,7 +35,7 @@ cp .env.example .env
 # Edit .env and paste your OpenAI API key
 ```
 Get your key at: https://platform.openai.com/api-keys  
-You need to add credit (minimum $5) — there is no free tier on the API.
+You need to add credit (minimum $5) - there is no free tier on the API.
 
 ### 4. Run the pipeline
 ```bash
@@ -47,8 +47,8 @@ python main.py
 
 ### 5. View results
 ```
-reports/evaluation_results.csv   — all 20 scored emails with raw metrics
-reports/summary.txt              — model comparison table
+reports/evaluation_results.csv   - all 20 scored emails with raw metrics
+reports/summary.txt              - model comparison table
 ```
 
 ---
@@ -75,12 +75,12 @@ email_eval/
 
 ## Prompting Strategy
 
-### Model A — Basic Prompt (Baseline)
+### Model A - Basic Prompt (Baseline)
 A single user message with the three inputs and a one-line instruction.  
 No system role. No examples. Represents the minimum viable prompt.
 
-### Model B — Role + Few-Shot Prompt (Advanced)
-- **System Role:** Establishes an expert persona — "senior professional communications specialist, 15 years experience."
+### Model B - Role + Few-Shot Prompt (Advanced)
+- **System Role:** Establishes an expert persona - "senior professional communications specialist, 15 years experience."
 - **Two Few-Shot Examples:** Show the model the exact expected output format, length, and tone vocabulary before the real task.
 - **Why not Chain-of-Thought?** Email generation is a *structured output task*, not a *reasoning task*. CoT adds tokens and latency with no measurable quality gain. Few-shot examples directly anchor format and tone, which is what this task requires.
 
@@ -88,7 +88,7 @@ No system role. No examples. Represents the minimum viable prompt.
 
 ## Evaluation Metrics
 
-### Metric 1 — Fact Recall Score (Automated)
+### Metric 1 - Fact Recall Score (Automated)
 **Definition:** Percentage of required facts that appear in the generated email.
 
 **Logic:**
@@ -111,8 +111,8 @@ No system role. No examples. Represents the minimum viable prompt.
 4. JSON mode enforced to prevent parsing failures
 
 **Judge model:** `gpt-4.1` (stronger than the generation model `gpt-4.1-mini`, preventing self-serving bias)  
-**Range:** 0.0 – 1.0 (raw: 1–10)  
-**Why:** Tone is subjective and impossible to measure with regex. LLM-as-Judge achieves ~85% agreement with human raters — the current industry standard for scalable text evaluation.
+**Range:** 0.0 - 1.0 (raw: 1–10)  
+**Why:** Tone is subjective and impossible to measure with regex. LLM-as-Judge achieves ~85% agreement with human raters - the current industry standard for scalable text evaluation.
 
 ---
 
@@ -131,7 +131,7 @@ No system role. No examples. Represents the minimum viable prompt.
 ---
 
 ### Composite Score
-`(Metric 1 + Metric 2 + Metric 3) / 3` — equal weighting across all three metrics.
+`(Metric 1 + Metric 2 + Metric 3) / 3` - equal weighting across all three metrics.
 
 ---
 
