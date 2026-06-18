@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up with a candidate after a first-round interview",
+    "facts": [
+      "Candidate name is Sarah Chen",
+      "Interview was on Monday at 2pm",
+      "Role is Senior Sales Development Representative",
+      "Next step is a technical skills assessment",
+      "Assessment deadline is Friday end of day"
+    ],
+    "tone": "professional",
+    "reference_email": "Subject: Next Steps \u2013 Senior SDR Role | Sarah Chen\n\nDear Sarah,\n\nThank you for joining us on Monday at 2pm for your first-round interview for the Senior Sales Development Representative position. It was a pleasure learning more about your background and experience.\n\nWe were impressed with your profile and would like to move you forward in the process. The next step is a technical skills assessment, which we kindly ask you to complete by Friday end of day.\n\nPlease let us know if you have any questions or need additional time. We look forward to reviewing your results.\n\nBest regards,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 2,
+    "intent": "Send a cold outreach email to a potential B2B client",
+    "facts": [
+      "Company name is NovaTech Solutions",
+      "They are a 200-person SaaS company",
+      "SG Services offers AI-powered lead generation",
+      "Can book a 20-minute discovery call",
+      "Offering a free pipeline audit as incentive"
+    ],
+    "tone": "confident",
+    "reference_email": "Subject: AI-Powered Lead Generation for NovaTech Solutions\n\nHi [First Name],\n\nI came across NovaTech Solutions and was immediately impressed by what your team has built in the SaaS space.\n\nAt SG Services, we specialise in AI-powered lead generation for growing B2B companies like yours. For a 200-person organisation, the right outbound system can unlock significant pipeline growth without adding headcount.\n\nI'd love to offer you a free pipeline audit and a quick 20-minute discovery call to explore where the biggest opportunities are for NovaTech.\n\nWould you be open to connecting this week?\n\nBest,\nSG Services Growth Team"
+  },
+  {
+    "id": 3,
+    "intent": "Reject a candidate politely after a final interview",
+    "facts": [
+      "Candidate name is James Okafor",
+      "Applied for the Account Executive role",
+      "Decision was very close",
+      "Company will keep his profile on file",
+      "Encourage him to apply for future roles"
+    ],
+    "tone": "empathetic",
+    "reference_email": "Subject: Your Application \u2013 Account Executive Role\n\nDear James,\n\nThank you for the time and effort you invested throughout the interview process for the Account Executive position. It was genuinely a pleasure getting to know you.\n\nAfter careful consideration, we have decided to move forward with another candidate. This was an extremely close decision and in no way reflects a lack of talent or potential on your part.\n\nWe were impressed by your profile and would very much like to keep your details on file for future opportunities. We would encourage you to apply for any roles that align with your goals.\n\nWe wish you every success in your career and hope our paths cross again.\n\nKind regards,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 4,
+    "intent": "Schedule a second-round interview with a candidate",
+    "facts": [
+      "Candidate name is Priya Nair",
+      "Second round is with the Hiring Manager",
+      "Two time slots available: Thursday 10am or Friday 3pm",
+      "Interview will be via Zoom",
+      "Duration is 45 minutes"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Second-Round Interview Invitation \u2013 Priya Nair\n\nDear Priya,\n\nWe are pleased to inform you that you have been selected to proceed to the second round of the interview process, which will take place with our Hiring Manager.\n\nWe have two time slots available for a Zoom interview of 45 minutes duration:\n\n- Thursday at 10:00 AM\n- Friday at 3:00 PM\n\nPlease reply at your earliest convenience to confirm your preferred slot. A calendar invitation with the Zoom link will be sent upon confirmation.\n\nWe look forward to speaking with you further.\n\nYours sincerely,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 5,
+    "intent": "Follow up on a sales proposal sent one week ago with no response",
+    "facts": [
+      "Prospect company is Meridian Capital",
+      "Proposal was for outsourced SDR services",
+      "Contract value is $4,500 per month",
+      "Offer to answer any questions or adjust the scope",
+      "Asking for a yes or no by end of the week"
+    ],
+    "tone": "urgent",
+    "reference_email": "Subject: Following Up \u2013 Outsourced SDR Proposal for Meridian Capital\n\nHi [First Name],\n\nI wanted to follow up on the proposal I sent over last week for our outsourced SDR services at $4,500 per month.\n\nI understand you're busy, but I want to make sure this hasn't slipped through the cracks. If you have any questions about the scope or would like us to adjust anything, I'm happy to jump on a quick call today or tomorrow.\n\nIdeally, I'd love to have a decision either way by end of this week so we can plan accordingly.\n\nLooking forward to hearing from you.\n\nBest,\nSG Services Sales Team"
+  },
+  {
+    "id": 6,
+    "intent": "Send a job offer letter to a successful candidate",
+    "facts": [
+      "Candidate name is Marcus Rivera",
+      "Role is AI Sales Development Representative",
+      "Salary is $65,000 per year",
+      "Start date is July 1st",
+      "Offer expires in 5 business days"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Official Offer of Employment \u2013 AI Sales Development Representative\n\nDear Marcus Rivera,\n\nWe are delighted to extend a formal offer of employment for the position of AI Sales Development Representative at SG Services Group.\n\nThe key terms of the offer are as follows:\n\n- Annual Salary: $65,000\n- Start Date: July 1st\n- Offer Validity: This offer remains open for 5 business days from the date of this letter\n\nWe believe you will be an outstanding addition to our team and are excited about the contribution you will make. Please review the attached terms and sign and return the offer letter at your earliest convenience.\n\nShould you have any questions, do not hesitate to reach out.\n\nYours sincerely,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 7,
+    "intent": "Apologise for a delay in the recruitment process",
+    "facts": [
+      "Candidate name is Fatima Al-Hassan",
+      "The delay is due to internal restructuring",
+      "Process has been paused for 2 weeks",
+      "Candidate is still being considered",
+      "Will provide an update by the 25th of this month"
+    ],
+    "tone": "empathetic",
+    "reference_email": "Subject: Important Update on Your Application \u2013 Fatima Al-Hassan\n\nDear Fatima,\n\nI wanted to reach out personally to apologise for the delay you have experienced in your recruitment process with us.\n\nWe have been going through a period of internal restructuring, which has temporarily paused our hiring process for approximately two weeks. I want to assure you that you are still being considered and this pause is in no way a reflection of your application.\n\nWe will be in touch with a full update by the 25th of this month. We sincerely appreciate your patience and understanding during this time.\n\nKind regards,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 8,
+    "intent": "Request a professional reference from a former employer",
+    "facts": [
+      "Candidate name is Leo Park",
+      "Reference is needed for a Senior Recruiter role",
+      "Reference should be from a direct manager",
+      "Deadline for the reference is next Wednesday",
+      "Can be submitted via email or a short form"
+    ],
+    "tone": "professional",
+    "reference_email": "Subject: Reference Request on Behalf of Leo Park\n\nDear [Reference Name],\n\nI am reaching out on behalf of Leo Park, who has applied for the Senior Recruiter position at SG Services Group and has listed you as a professional reference.\n\nWe would greatly appreciate a brief character and professional reference from you, ideally from your experience working with Leo as a direct manager.\n\nThe reference can be provided either by email or through a short online form, and we kindly ask that it be submitted by next Wednesday.\n\nThank you in advance for your time and assistance. Please do not hesitate to contact us if you have any questions.\n\nBest regards,\nSG Services Recruitment Team"
+  },
+  {
+    "id": 9,
+    "intent": "Invite a prospect to a free webinar on AI-powered recruitment",
+    "facts": [
+      "Webinar title is Recruit Smarter with AI",
+      "Date is next Tuesday at 1pm EST",
+      "Topics include AI screening, automated outreach, and pipeline analytics",
+      "Registration link is sgservicesgroup.com/webinar",
+      "Spaces are limited to 50 attendees"
+    ],
+    "tone": "casual",
+    "reference_email": "Subject: You're Invited \u2013 Recruit Smarter with AI (Next Tuesday, 1pm EST)\n\nHi [First Name],\n\nWe're hosting a free webinar next Tuesday at 1pm EST and thought you'd find it really useful!\n\nRecruit Smarter with AI will cover three things we get asked about all the time: AI-powered candidate screening, automated outreach that actually converts, and pipeline analytics that give you real visibility.\n\nSpaces are limited to 50 attendees, so we'd love to save you a spot. You can register here: sgservicesgroup.com/webinar\n\nHope to see you there!\n\nCheers,\nSG Services Team"
+  },
+  {
+    "id": 10,
+    "intent": "Send a meeting request to discuss a new partnership opportunity",
+    "facts": [
+      "Partner company is BlueWave Staffing",
+      "Proposing a referral partnership for overflow recruitment",
+      "Meeting duration is 30 minutes",
+      "Suggesting next Monday or Tuesday morning",
+      "Meeting can be in person or via Google Meet"
+    ],
+    "tone": "confident",
+    "reference_email": "Subject: Partnership Opportunity \u2013 SG Services x BlueWave Staffing\n\nHi [First Name],\n\nI'm reaching out because I believe there's a strong case for a referral partnership between SG Services and BlueWave Staffing, particularly around managing overflow recruitment demand.\n\nI'd love to schedule a meeting of 30 minutes duration to walk you through what I have in mind. I'm available next Monday or Tuesday morning, and happy to meet in person or via Google Meet \u2014 whichever works better for you.\n\nLet me know what suits your schedule and I'll send over a calendar invite.\n\nLooking forward to connecting.\n\nBest,\nSG Services Partnerships Team"
+  }
+]

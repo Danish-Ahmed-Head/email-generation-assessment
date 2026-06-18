@@ -1,0 +1,23 @@
+
+============================================================
+  EVALUATION SUMMARY
+  Generated: 2026-06-18 21:34
+============================================================
+
+Metric                            Model A    Model B    Winner
+--------------------------------------------------------------
+Fact Recall (M1)                   0.9800     0.9800         B
+Tone Alignment (M2 /10)              9.20       8.60         A
+Email Structure (M3)               0.9667     1.0000         B
+--------------------------------------------------------------
+COMPOSITE AVERAGE                  0.9556     0.9466         A
+============================================================
+
+  Model A = Basic Prompt (bare instruction, no role, no examples)
+  Model B = Role + Few-Shot Prompt (expert persona + 2 examples)
+
+  Generation model : gpt-4.1-mini
+  Judge model      : gpt-4.1
+  Scenarios        : 10
+  Total evaluations: 20
+============================================================

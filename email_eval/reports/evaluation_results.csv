@@ -1,0 +1,572 @@
+scenario_id,model_variant,tone,intent,metric_1_fact_recall,metric_1_facts_found,metric_1_total_facts,metric_2_tone_alignment,metric_2_tone_raw,metric_2_tone_rationale,metric_3_structure,metric_3_has_subject,metric_3_has_body,metric_3_has_closing,composite_score,generated_email,reference_email
+1,A,professional,Follow up with a candidate after a first-round interview,1,5,5,1,10,"The email is polished, clear, and maintains a professional tone throughout every sentence.",1,TRUE,TRUE,TRUE,1,"Subject: Next Steps Following Your Interview for Senior Sales Development Representative
+
+Dear Sarah,
+
+I hope this message finds you well. Thank you again for meeting with us on Monday at 2 PM to discuss the Senior Sales Development Representative position.
+
+As the next step in our process, we would like you to complete a technical skills assessment. Please note that the deadline to submit your assessment is by the end of the day this Friday.
+
+If you have any questions or need additional information, feel free to reach out.
+
+Best regards,  
+[Your Name]  
+[Your Job Title]  
+[Your Contact Information]","Subject: Next Steps – Senior SDR Role | Sarah Chen
+
+Dear Sarah,
+
+Thank you for joining us on Monday at 2pm for your first-round interview for the Senior Sales Development Representative position. It was a pleasure learning more about your background and experience.
+
+We were impressed with your profile and would like to move you forward in the process. The next step is a technical skills assessment, which we kindly ask you to complete by Friday end of day.
+
+Please let us know if you have any questions or need additional time. We look forward to reviewing your results.
+
+Best regards,
+SG Services Recruitment Team"
+1,B,professional,Follow up with a candidate after a first-round interview,1,5,5,1,10,"The email is polished, clear, and maintains a professional tone throughout.",1,TRUE,TRUE,TRUE,1,"Subject: Next Steps Following Your Interview – Senior Sales Development Representative
+
+Dear Sarah,
+
+Thank you for attending your first-round interview for the Senior Sales Development Representative role on Monday at 2pm.
+
+The next step in the process is a technical skills assessment, which we kindly ask you to complete by the end of day this Friday.
+
+Please let me know if you need any additional information or assistance.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]","Subject: Next Steps – Senior SDR Role | Sarah Chen
+
+Dear Sarah,
+
+Thank you for joining us on Monday at 2pm for your first-round interview for the Senior Sales Development Representative position. It was a pleasure learning more about your background and experience.
+
+We were impressed with your profile and would like to move you forward in the process. The next step is a technical skills assessment, which we kindly ask you to complete by Friday end of day.
+
+Please let us know if you have any questions or need additional time. We look forward to reviewing your results.
+
+Best regards,
+SG Services Recruitment Team"
+2,A,confident,Send a cold outreach email to a potential B2B client,1,5,5,0.8,8,"The email is assertive and value-forward, but phrases like 'I’d like to offer' slightly soften the confidence.",0.6667,TRUE,TRUE,FALSE,0.8222,"Subject: Unlock AI-Powered Growth for NovaTech Solutions – Free Pipeline Audit Included
+
+Hi [Recipient's Name],
+
+I’m reaching out from SG Services because we specialize in AI-powered lead generation that drives measurable growth for SaaS companies like NovaTech Solutions. With your team of 200, we believe there’s a significant opportunity to streamline and accelerate your sales pipeline using our tailored solutions.
+
+I’d like to offer you a complimentary pipeline audit to identify untapped prospects and optimize your lead flow. Following that, we can schedule a brief 20-minute discovery call to explore how SG Services can help NovaTech Solutions scale efficiently.
+
+Let me know a convenient time next week, and I’ll make the arrangements.
+
+Looking forward to connecting,
+
+[Your Full Name]  
+[Your Position]  
+SG Services  
+[Your Contact Information]","Subject: AI-Powered Lead Generation for NovaTech Solutions
+
+Hi [First Name],
+
+I came across NovaTech Solutions and was immediately impressed by what your team has built in the SaaS space.
+
+At SG Services, we specialise in AI-powered lead generation for growing B2B companies like yours. For a 200-person organisation, the right outbound system can unlock significant pipeline growth without adding headcount.
+
+I'd love to offer you a free pipeline audit and a quick 20-minute discovery call to explore where the biggest opportunities are for NovaTech.
+
+Would you be open to connecting this week?
+
+Best,
+SG Services Growth Team"
+2,B,confident,Send a cold outreach email to a potential B2B client,1,5,5,0.8,8,"The email is assertive and value-forward, but the call-to-action could be more direct for full confidence.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Boost NovaTech Solutions’ Pipeline with AI-Powered Lead Generation
+
+Hi [First Name],
+
+At SG Services, we specialize in AI-powered lead generation designed to accelerate growth for SaaS companies like NovaTech Solutions.
+
+With a team of 200, you’re well-positioned to scale, and our technology can help you identify high-quality leads faster and more efficiently. I’d like to offer a free pipeline audit to highlight immediate opportunities.
+
+Let’s book a 20-minute discovery call to explore how we can support your growth goals. When would be a good time?
+
+Best regards,  
+[Your Name]  
+SG Services","Subject: AI-Powered Lead Generation for NovaTech Solutions
+
+Hi [First Name],
+
+I came across NovaTech Solutions and was immediately impressed by what your team has built in the SaaS space.
+
+At SG Services, we specialise in AI-powered lead generation for growing B2B companies like yours. For a 200-person organisation, the right outbound system can unlock significant pipeline growth without adding headcount.
+
+I'd love to offer you a free pipeline audit and a quick 20-minute discovery call to explore where the biggest opportunities are for NovaTech.
+
+Would you be open to connecting this week?
+
+Best,
+SG Services Growth Team"
+3,A,empathetic,Reject a candidate politely after a final interview,1,5,5,1,10,"Every sentence acknowledges feelings and shows understanding, fully matching the empathetic tone requested.",1,TRUE,TRUE,TRUE,1,"Subject: Update on Your Application for the Account Executive Role
+
+Dear James Okafor,
+
+Thank you for taking the time to interview for the Account Executive position with us. We truly appreciate your interest in joining our team and the effort you put into the process.
+
+After careful consideration, we regret to inform you that we will not be moving forward with your application at this time. Please know that this decision was very close, reflecting the strong qualities you demonstrated throughout the interview.
+
+We will keep your profile on file and encourage you to apply for any future opportunities that align with your skills and experience. We wish you the very best in your career and hope to have the chance to connect again.
+
+Thank you once again for your time and understanding.
+
+Warm regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]","Subject: Your Application – Account Executive Role
+
+Dear James,
+
+Thank you for the time and effort you invested throughout the interview process for the Account Executive position. It was genuinely a pleasure getting to know you.
+
+After careful consideration, we have decided to move forward with another candidate. This was an extremely close decision and in no way reflects a lack of talent or potential on your part.
+
+We were impressed by your profile and would very much like to keep your details on file for future opportunities. We would encourage you to apply for any roles that align with your goals.
+
+We wish you every success in your career and hope our paths cross again.
+
+Kind regards,
+SG Services Recruitment Team"
+3,B,empathetic,Reject a candidate politely after a final interview,1,5,5,0.8,8,"The email is warm and acknowledges effort, but lacks explicit phrases showing understanding of disappointment.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Update on Your Account Executive Application
+
+Dear James,
+
+Thank you for taking the time to interview for the Account Executive role. After careful consideration, the decision was very close, but we have chosen to move forward with another candidate.
+
+We truly appreciate your interest and the effort you put into the process. We will keep your profile on file and encourage you to apply for future opportunities that match your skills.
+
+Wishing you all the best in your job search.
+
+Kind regards,  
+[Your Name]  
+[Company Name]","Subject: Your Application – Account Executive Role
+
+Dear James,
+
+Thank you for the time and effort you invested throughout the interview process for the Account Executive position. It was genuinely a pleasure getting to know you.
+
+After careful consideration, we have decided to move forward with another candidate. This was an extremely close decision and in no way reflects a lack of talent or potential on your part.
+
+We were impressed by your profile and would very much like to keep your details on file for future opportunities. We would encourage you to apply for any roles that align with your goals.
+
+We wish you every success in your career and hope our paths cross again.
+
+Kind regards,
+SG Services Recruitment Team"
+4,A,formal,Schedule a second-round interview with a candidate,1,5,5,1,10,"Every sentence is structured, formal, and uses third-person sign-off as required.",1,TRUE,TRUE,TRUE,1,"Subject: Scheduling Your Second-Round Interview with Hiring Manager
+
+Dear Priya Nair,
+
+I hope this message finds you well. We would like to invite you to a second-round interview with the Hiring Manager as the next step in our selection process.
+
+The interview will be conducted via Zoom and is expected to last approximately 45 minutes. Please let us know your availability for one of the following time slots:
+
+- Thursday at 10:00 AM  
+- Friday at 3:00 PM
+
+Kindly confirm your preferred time at your earliest convenience so we can send you the Zoom meeting details.
+
+Thank you, and we look forward to your response.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]  
+[Contact Information]","Subject: Second-Round Interview Invitation – Priya Nair
+
+Dear Priya,
+
+We are pleased to inform you that you have been selected to proceed to the second round of the interview process, which will take place with our Hiring Manager.
+
+We have two time slots available for a Zoom interview of 45 minutes duration:
+
+- Thursday at 10:00 AM
+- Friday at 3:00 PM
+
+Please reply at your earliest convenience to confirm your preferred slot. A calendar invitation with the Zoom link will be sent upon confirmation.
+
+We look forward to speaking with you further.
+
+Yours sincerely,
+SG Services Recruitment Team"
+4,B,formal,Schedule a second-round interview with a candidate,1,5,5,1,10,"Every sentence is structured, formal, and uses appropriate sign-offs without contractions.",1,TRUE,TRUE,TRUE,1,"Subject: Scheduling Your Second-Round Interview
+
+Dear Priya,
+
+We are pleased to invite you to a second-round interview with the Hiring Manager for the next stage of the selection process.
+
+The interview will be conducted via Zoom and is scheduled to last approximately 45 minutes. Please let us know your availability for one of the following time slots:
+- Thursday at 10:00 AM
+- Friday at 3:00 PM
+
+Kindly confirm which option works best for you, and we will send you the Zoom details accordingly.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]","Subject: Second-Round Interview Invitation – Priya Nair
+
+Dear Priya,
+
+We are pleased to inform you that you have been selected to proceed to the second round of the interview process, which will take place with our Hiring Manager.
+
+We have two time slots available for a Zoom interview of 45 minutes duration:
+
+- Thursday at 10:00 AM
+- Friday at 3:00 PM
+
+Please reply at your earliest convenience to confirm your preferred slot. A calendar invitation with the Zoom link will be sent upon confirmation.
+
+We look forward to speaking with you further.
+
+Yours sincerely,
+SG Services Recruitment Team"
+5,A,urgent,Follow up on a sales proposal sent one week ago with no response,1,5,5,0.8,8,"The email uses time-pressure language but includes some softer, non-urgent phrases that dilute urgency.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Follow-Up on Outsourced SDR Proposal – Response Needed by Week’s End
+
+Dear [Recipient's Name],
+
+I hope this message finds you well. I wanted to follow up on the sales proposal for outsourced SDR services we sent to Meridian Capital one week ago, valued at $4,500 per month. 
+
+As we have not yet received a response, I wanted to check in to see if you have any questions or if there is any aspect of the scope you would like us to adjust to better meet your needs. 
+
+Given our project timelines, we would appreciate a clear yes or no by the end of this week to proceed accordingly.
+
+Please don’t hesitate to reach out if you need any further information or clarification.
+
+Thank you for your attention, and I look forward to your reply.
+
+Best regards,  
+[Your Full Name]  
+[Your Position]  
+[Your Company]  
+[Your Contact Information]","Subject: Following Up – Outsourced SDR Proposal for Meridian Capital
+
+Hi [First Name],
+
+I wanted to follow up on the proposal I sent over last week for our outsourced SDR services at $4,500 per month.
+
+I understand you're busy, but I want to make sure this hasn't slipped through the cracks. If you have any questions about the scope or would like us to adjust anything, I'm happy to jump on a quick call today or tomorrow.
+
+Ideally, I'd love to have a decision either way by end of this week so we can plan accordingly.
+
+Looking forward to hearing from you.
+
+Best,
+SG Services Sales Team"
+5,B,urgent,Follow up on a sales proposal sent one week ago with no response,1,5,5,0.8,8,"The email uses time-pressure language and a clear deadline, but some sentences are less direct and urgent.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Urgent: Follow-Up on Outsourced SDR Proposal for Meridian Capital
+
+Dear [Recipient’s Name],
+
+I’m following up on the outsourced SDR services proposal sent to Meridian Capital last week, valued at $4,500 per month. We haven’t yet received a response and want to ensure all your questions are addressed.
+
+Please let me know if you need any clarifications or if you would like to discuss adjustments to the scope. We kindly request a clear yes or no decision by the end of this week to proceed accordingly.
+
+Looking forward to your prompt reply.
+
+Best regards,  
+[Your Name]  
+SG Services Team","Subject: Following Up – Outsourced SDR Proposal for Meridian Capital
+
+Hi [First Name],
+
+I wanted to follow up on the proposal I sent over last week for our outsourced SDR services at $4,500 per month.
+
+I understand you're busy, but I want to make sure this hasn't slipped through the cracks. If you have any questions about the scope or would like us to adjust anything, I'm happy to jump on a quick call today or tomorrow.
+
+Ideally, I'd love to have a decision either way by end of this week so we can plan accordingly.
+
+Looking forward to hearing from you.
+
+Best,
+SG Services Sales Team"
+6,A,formal,Send a job offer letter to a successful candidate,1,5,5,1,10,"Every sentence is structured, formal, and uses appropriate sign-off conventions.",1,TRUE,TRUE,TRUE,1,"Subject: Job Offer for AI Sales Development Representative Position
+
+Dear Marcus Rivera,
+
+I am pleased to extend to you an offer for the position of AI Sales Development Representative at our company. We were impressed with your qualifications and believe you will be a valuable addition to our team.
+
+The role offers an annual salary of $65,000. Your anticipated start date will be July 1st. Please review the attached offer letter for detailed information regarding the terms and conditions of your employment.
+
+Kindly note that this offer will remain valid for five business days from the date of this email. We encourage you to review and respond within this timeframe.
+
+Should you have any questions or require further clarification, please do not hesitate to contact me.
+
+We look forward to your positive response and to welcoming you aboard.
+
+Sincerely,  
+[Your Full Name]  
+[Your Position]  
+[Company Name]  
+[Contact Information]","Subject: Official Offer of Employment – AI Sales Development Representative
+
+Dear Marcus Rivera,
+
+We are delighted to extend a formal offer of employment for the position of AI Sales Development Representative at SG Services Group.
+
+The key terms of the offer are as follows:
+
+- Annual Salary: $65,000
+- Start Date: July 1st
+- Offer Validity: This offer remains open for 5 business days from the date of this letter
+
+We believe you will be an outstanding addition to our team and are excited about the contribution you will make. Please review the attached terms and sign and return the offer letter at your earliest convenience.
+
+Should you have any questions, do not hesitate to reach out.
+
+Yours sincerely,
+SG Services Recruitment Team"
+6,B,formal,Send a job offer letter to a successful candidate,1,5,5,1,10,"Every sentence is structured, formal, and uses appropriate third-person sign-off.",1,TRUE,TRUE,TRUE,1,"Subject: Formal Job Offer – AI Sales Development Representative
+
+Dear Marcus Rivera,
+
+We are pleased to extend to you an offer for the position of AI Sales Development Representative at SG Services.
+
+The terms of your employment are as follows:
+- Annual Salary: $65,000
+- Start Date: July 1st
+
+Please note that this offer will remain open for acceptance for five business days from the date of this email.
+
+Should you have any questions or require further information, feel free to contact us. We look forward to your positive response and to welcoming you to the team.
+
+Yours sincerely,  
+SG Services Recruitment Team","Subject: Official Offer of Employment – AI Sales Development Representative
+
+Dear Marcus Rivera,
+
+We are delighted to extend a formal offer of employment for the position of AI Sales Development Representative at SG Services Group.
+
+The key terms of the offer are as follows:
+
+- Annual Salary: $65,000
+- Start Date: July 1st
+- Offer Validity: This offer remains open for 5 business days from the date of this letter
+
+We believe you will be an outstanding addition to our team and are excited about the contribution you will make. Please review the attached terms and sign and return the offer letter at your earliest convenience.
+
+Should you have any questions, do not hesitate to reach out.
+
+Yours sincerely,
+SG Services Recruitment Team"
+7,A,empathetic,Apologise for a delay in the recruitment process,1,5,5,1,10,Every sentence acknowledges the candidate's feelings and shows understanding and warmth throughout.,1,TRUE,TRUE,TRUE,1,"Subject: Update on Your Recruitment Process
+
+Dear Fatima Al-Hassan,
+
+I hope this message finds you well. I am writing to sincerely apologize for the delay in the recruitment process for the position you applied for. Due to internal restructuring within our organization, the process has been temporarily paused for the past two weeks.
+
+Please be assured that you are still being carefully considered for the role. We understand the importance of this opportunity and appreciate your patience during this time. We are committed to providing you with a clear update on the status of your application by the 25th of this month.
+
+Thank you for your understanding and continued interest in joining our team. Should you have any questions in the meantime, please do not hesitate to reach out.
+
+Warm regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]  
+[Contact Information]","Subject: Important Update on Your Application – Fatima Al-Hassan
+
+Dear Fatima,
+
+I wanted to reach out personally to apologise for the delay you have experienced in your recruitment process with us.
+
+We have been going through a period of internal restructuring, which has temporarily paused our hiring process for approximately two weeks. I want to assure you that you are still being considered and this pause is in no way a reflection of your application.
+
+We will be in touch with a full update by the 25th of this month. We sincerely appreciate your patience and understanding during this time.
+
+Kind regards,
+SG Services Recruitment Team"
+7,B,empathetic,Apologise for a delay in the recruitment process,1,5,5,0.8,8,"The email acknowledges inconvenience and thanks the recipient, but could show more explicit empathy for their feelings.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Update on Your Application Status
+
+Dear Fatima,
+
+I want to apologise for the delay in the recruitment process regarding your application. Due to internal restructuring, the process has been paused for the past two weeks.
+
+Please be assured that you are still being actively considered for the role. We will provide you with a detailed update by the 25th of this month.
+
+Thank you for your patience and understanding during this time.
+
+Kind regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]","Subject: Important Update on Your Application – Fatima Al-Hassan
+
+Dear Fatima,
+
+I wanted to reach out personally to apologise for the delay you have experienced in your recruitment process with us.
+
+We have been going through a period of internal restructuring, which has temporarily paused our hiring process for approximately two weeks. I want to assure you that you are still being considered and this pause is in no way a reflection of your application.
+
+We will be in touch with a full update by the 25th of this month. We sincerely appreciate your patience and understanding during this time.
+
+Kind regards,
+SG Services Recruitment Team"
+8,A,professional,Request a professional reference from a former employer,1,5,5,1,10,"The email is polished, clear, and maintains a professional tone throughout.",1,TRUE,TRUE,TRUE,1,"Subject: Request for Professional Reference for Senior Recruiter Role
+
+Dear [Manager’s Name],
+
+I hope this message finds you well. I am reaching out to kindly request a professional reference from you for a Senior Recruiter position I am currently pursuing. Given your role as my direct manager during my time at [Company Name], your insight would be invaluable.
+
+The reference is needed by next Wednesday, and it can be submitted either via email or through a short form, whichever is most convenient for you. Please let me know if you require any additional information or details to assist in providing the reference.
+
+Thank you very much for your time and support.
+
+Best regards,  
+Leo Park","Subject: Reference Request on Behalf of Leo Park
+
+Dear [Reference Name],
+
+I am reaching out on behalf of Leo Park, who has applied for the Senior Recruiter position at SG Services Group and has listed you as a professional reference.
+
+We would greatly appreciate a brief character and professional reference from you, ideally from your experience working with Leo as a direct manager.
+
+The reference can be provided either by email or through a short online form, and we kindly ask that it be submitted by next Wednesday.
+
+Thank you in advance for your time and assistance. Please do not hesitate to contact us if you have any questions.
+
+Best regards,
+SG Services Recruitment Team"
+8,B,professional,Request a professional reference from a former employer,1,5,5,1,10,"The email is polished, clear, and maintains a professional tone throughout.",1,TRUE,TRUE,TRUE,1,"Subject: Reference Request for Leo Park – Senior Recruiter Role
+
+Dear [Manager’s Name],
+
+I am writing to request a professional reference for Leo Park, who has applied for a Senior Recruiter position with our company. To support his application, we require a reference from a direct manager familiar with his work.
+
+If possible, please provide the reference by next Wednesday. You may submit it via email or complete a brief form, whichever is more convenient.
+
+Thank you in advance for your assistance. Please let me know if you need any further details.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]","Subject: Reference Request on Behalf of Leo Park
+
+Dear [Reference Name],
+
+I am reaching out on behalf of Leo Park, who has applied for the Senior Recruiter position at SG Services Group and has listed you as a professional reference.
+
+We would greatly appreciate a brief character and professional reference from you, ideally from your experience working with Leo as a direct manager.
+
+The reference can be provided either by email or through a short online form, and we kindly ask that it be submitted by next Wednesday.
+
+Thank you in advance for your time and assistance. Please do not hesitate to contact us if you have any questions.
+
+Best regards,
+SG Services Recruitment Team"
+9,A,casual,Invite a prospect to a free webinar on AI-powered recruitment,1,5,5,1,10,"The email is friendly, conversational, uses contractions, and has a warm opener and closer.",1,TRUE,TRUE,TRUE,1,"Subject: Join Us Next Tuesday for a Free Webinar: Recruit Smarter with AI
+
+Hi [Name],
+
+I hope this message finds you well! I’m excited to invite you to our upcoming free webinar, **Recruit Smarter with AI**, happening next Tuesday at 1pm EST.
+
+We’ll be diving into how AI can transform your recruitment process, covering topics like AI screening, automated outreach, and pipeline analytics. It’s a great opportunity to see how these tools can save you time and help you find the best candidates faster.
+
+Spaces are limited to just 50 attendees, so be sure to secure your spot soon by registering here: sgservicesgroup.com/webinar
+
+Looking forward to having you join us!
+
+Best,  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]","Subject: You're Invited – Recruit Smarter with AI (Next Tuesday, 1pm EST)
+
+Hi [First Name],
+
+We're hosting a free webinar next Tuesday at 1pm EST and thought you'd find it really useful!
+
+Recruit Smarter with AI will cover three things we get asked about all the time: AI-powered candidate screening, automated outreach that actually converts, and pipeline analytics that give you real visibility.
+
+Spaces are limited to 50 attendees, so we'd love to save you a spot. You can register here: sgservicesgroup.com/webinar
+
+Hope to see you there!
+
+Cheers,
+SG Services Team"
+9,B,casual,Invite a prospect to a free webinar on AI-powered recruitment,1,5,5,0.8,8,"The tone is friendly and conversational, but the closing is slightly more formal than casual.",1,TRUE,TRUE,TRUE,0.9333,"Subject: Join Us Next Tuesday: Recruit Smarter with AI Webinar
+
+Hi [First Name],
+
+Want to see how AI can transform your recruitment process? Join our free webinar, *Recruit Smarter with AI*, next Tuesday at 1pm EST.
+
+We’ll cover AI screening, automated outreach, and pipeline analytics — all the tools to help you hire faster and smarter.
+
+Spaces are limited to 50 attendees, so save your spot now: sgservicesgroup.com/webinar
+
+Hope to see you there!
+
+Best,  
+SG Services Team","Subject: You're Invited – Recruit Smarter with AI (Next Tuesday, 1pm EST)
+
+Hi [First Name],
+
+We're hosting a free webinar next Tuesday at 1pm EST and thought you'd find it really useful!
+
+Recruit Smarter with AI will cover three things we get asked about all the time: AI-powered candidate screening, automated outreach that actually converts, and pipeline analytics that give you real visibility.
+
+Spaces are limited to 50 attendees, so we'd love to save you a spot. You can register here: sgservicesgroup.com/webinar
+
+Hope to see you there!
+
+Cheers,
+SG Services Team"
+10,A,confident,Send a meeting request to discuss a new partnership opportunity,0.8,4,5,0.6,6,"The email is polite and clear but lacks assertive, value-forward language typical of a confident tone.",1,TRUE,TRUE,TRUE,0.8,"Subject: Meeting Request to Discuss Referral Partnership Opportunity
+
+Dear [Recipient’s Name],
+
+I hope this message finds you well. I am reaching out to propose a meeting to discuss a potential referral partnership between our company and BlueWave Staffing. We believe there is a great opportunity to collaborate on overflow recruitment needs, creating mutual value for both organizations.
+
+I suggest a 30-minute meeting next Monday or Tuesday morning at your convenience. We can connect either in person or via Google Meet, depending on what works best for you.
+
+Please let me know your preferred date, time, and meeting format, and I will be happy to coordinate accordingly.
+
+Looking forward to your response.
+
+Best regards,  
+[Your Full Name]  
+[Your Position]  
+[Your Company]  
+[Your Contact Information]","Subject: Partnership Opportunity – SG Services x BlueWave Staffing
+
+Hi [First Name],
+
+I'm reaching out because I believe there's a strong case for a referral partnership between SG Services and BlueWave Staffing, particularly around managing overflow recruitment demand.
+
+I'd love to schedule a meeting of 30 minutes duration to walk you through what I have in mind. I'm available next Monday or Tuesday morning, and happy to meet in person or via Google Meet — whichever works better for you.
+
+Let me know what suits your schedule and I'll send over a calendar invite.
+
+Looking forward to connecting.
+
+Best,
+SG Services Partnerships Team"
+10,B,confident,Send a meeting request to discuss a new partnership opportunity,0.8,4,5,0.6,6,"The email is clear and assertive but uses hedging language like 'could' and 'suggest,' reducing confidence.",1,TRUE,TRUE,TRUE,0.8,"Subject: Meeting Request to Discuss Referral Partnership Opportunity
+
+Dear BlueWave Staffing Team,
+
+I am reaching out to propose a referral partnership to manage overflow recruitment more efficiently. We believe this collaboration could deliver strong mutual benefits.
+
+I suggest a 30-minute meeting to discuss the details, available either in person or via Google Meet. Would Monday or Tuesday morning next week work for you?
+
+Please let me know your preferred time and format.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+SG Services","Subject: Partnership Opportunity – SG Services x BlueWave Staffing
+
+Hi [First Name],
+
+I'm reaching out because I believe there's a strong case for a referral partnership between SG Services and BlueWave Staffing, particularly around managing overflow recruitment demand.
+
+I'd love to schedule a meeting of 30 minutes duration to walk you through what I have in mind. I'm available next Monday or Tuesday morning, and happy to meet in person or via Google Meet — whichever works better for you.
+
+Let me know what suits your schedule and I'll send over a calendar invite.
+
+Looking forward to connecting.
+
+Best,
+SG Services Partnerships Team"
