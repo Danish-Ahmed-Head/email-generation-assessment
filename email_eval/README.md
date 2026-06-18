@@ -20,7 +20,7 @@ It then compares **two prompting strategies** using **three custom evaluation me
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Danish-Ahmed-Head/email-generation-assessment.git
 cd email_eval
 ```
 
